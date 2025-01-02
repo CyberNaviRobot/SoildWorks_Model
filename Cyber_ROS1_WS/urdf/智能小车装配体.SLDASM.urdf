@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="智能小车装配体.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.017914 -0.014942 -0.045427"
+        rpy="0 0 0" />
+      <mass
+        value="0.64236" />
+      <inertia
+        ixx="0.0021986"
+        ixy="-2.369E-08"
+        ixz="1.0588E-20"
+        iyy="0.00095836"
+        iyz="9.7164E-21"
+        izz="0.0031168" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel0_link">
+    <inertial>
+      <origin
+        xyz="0.02814 -5.6685E-05 6.6161E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.057357" />
+      <inertia
+        ixx="3.4009E-05"
+        ixy="1.3644E-13"
+        ixz="-1.4396E-13"
+        iyy="2.1059E-05"
+        iyz="1.1518E-12"
+        izz="2.1081E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel0_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel0_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel0_joint"
+    type="continuous">
+    <origin
+      xyz="-0.095916 0.092 -0.10744"
+      rpy="0.77546 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel0_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel1_link">
+    <inertial>
+      <origin
+        xyz="0.028156 0.00020253 0.00013716"
+        rpy="0 0 0" />
+      <mass
+        value="0.057357" />
+      <inertia
+        ixx="3.4009E-05"
+        ixy="-8.7728E-12"
+        ixz="-5.1685E-12"
+        iyy="2.1059E-05"
+        iyz="-5.8727E-12"
+        izz="2.1081E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel1_joint"
+    type="continuous">
+    <origin
+      xyz="-0.095916 0.092 0.037722"
+      rpy="0.77546 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel1_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel2_link">
+    <inertial>
+      <origin
+        xyz="-0.012156 0.00020249 0.00013716"
+        rpy="0 0 0" />
+      <mass
+        value="0.057357" />
+      <inertia
+        ixx="3.4009E-05"
+        ixy="2.8423E-12"
+        ixz="4.6964E-12"
+        iyy="2.1059E-05"
+        iyz="1.2843E-11"
+        izz="2.1081E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel2_joint"
+    type="continuous">
+    <origin
+      xyz="0.07609 0.092 0.037722"
+      rpy="0.77546 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel2_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel3_link">
+    <inertial>
+      <origin
+        xyz="-0.01216 -5.6685E-05 6.6161E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.057357" />
+      <inertia
+        ixx="3.4009E-05"
+        ixy="1.3644E-13"
+        ixz="-1.4396E-13"
+        iyy="2.1059E-05"
+        iyz="1.1518E-12"
+        izz="2.1081E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/wheel3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel3_joint"
+    type="continuous">
+    <origin
+      xyz="0.07609 0.092 -0.10744"
+      rpy="0.77546 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel3_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="laser_link">
+    <inertial>
+      <origin
+        xyz="-0.017914 -0.014942 -0.045427"
+        rpy="0 0 0" />
+      <mass
+        value="0.64236" />
+      <inertia
+        ixx="0.0021986"
+        ixy="-2.369E-08"
+        ixz="1.0588E-20"
+        iyy="0.00095836"
+        iyz="9.7164E-21"
+        izz="0.0031168" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/laser_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://智能小车装配体.SLDASM/meshes/laser_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="laser_joint"
+    type="fixed">
+    <origin
+      xyz="-0.017913 -0.005 0.038761"
+      rpy="-1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="laser_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
