@@ -5,7 +5,7 @@
     name="base_link">
     <inertial>
       <origin
-        xyz="-0.9 0.9 0.138027242309266"
+        xyz="-0.0126930979005275 0.00191328701604972 0.138027242309266"
         rpy="0 0 0" />
       <mass
         value="1.02316767990512" />
@@ -19,7 +19,7 @@
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
+        xyz="-0.14 -0.0925 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
