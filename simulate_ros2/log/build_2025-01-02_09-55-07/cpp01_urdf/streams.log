@@ -1,0 +1,64 @@
+[0.015s] Invoking command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/source/simulate_ros2/src/cpp01_urdf -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/source/simulate_ros2/install/cpp01_urdf
+[0.323s] -- The C compiler identification is GNU 13.3.0
+[0.684s] -- The CXX compiler identification is GNU 13.3.0
+[0.904s] -- Detecting C compiler ABI info
+[1.036s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.044s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.082s] -- Detecting CXX compiler ABI info
+[1.206s] -- Detecting CXX compiler ABI info - done
+[1.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.213s] -- Detecting CXX compile features
+[1.214s] -- Detecting CXX compile features - done
+[1.240s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.357s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.473s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.575s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.575s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.576s] -- Added test 'lint_cmake' to check CMake code style
+[1.577s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.578s] -- Added test 'xmllint' to check XML markup files
+[1.581s] -- Configuring done (1.5s)
+[1.583s] -- Generating done (0.0s)
+[1.585s] -- Build files have been written to: /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf
+[1.589s] Invoked command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/source/simulate_ros2/src/cpp01_urdf -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/source/simulate_ros2/install/cpp01_urdf
+[1.590s] Invoking command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf -- -j16 -l16
+[1.614s] Invoked command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf -- -j16 -l16
+[1.621s] Invoking command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf
+[1.626s] -- Install configuration: ""
+[1.626s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/launch
+[1.626s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/launch/display.launch.py
+[1.626s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf
+[1.626s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/xacro
+[1.626s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/xacro/.gitkeep
+[1.627s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf
+[1.627s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf/CyberNaviRobot.urdf
+[1.627s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf/CyberNaviRobot.csv
+[1.627s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/sdf
+[1.628s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/sdf/.gitkeep
+[1.628s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/rviz
+[1.628s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/rviz/.gitkeep
+[1.628s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes
+[1.628s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/base_link.STL
+[1.630s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/wheel2_link.STL
+[1.634s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/wheel1_link.STL
+[1.637s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/wheel3_link.STL
+[1.640s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/laser_link.STL
+[1.643s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/wheel0_link.STL
+[1.645s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/package_run_dependencies/cpp01_urdf
+[1.645s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/parent_prefix_path/cpp01_urdf
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/ament_prefix_path.sh
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/ament_prefix_path.dsv
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/path.sh
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/path.dsv
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.bash
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.sh
+[1.646s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.zsh
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.dsv
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/package.dsv
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/packages/cpp01_urdf
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/cmake/cpp01_urdfConfig.cmake
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/cmake/cpp01_urdfConfig-version.cmake
+[1.647s] -- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/package.xml
+[1.648s] Invoked command in '/home/tungchiahui/source/simulate_ros2/build/cpp01_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf

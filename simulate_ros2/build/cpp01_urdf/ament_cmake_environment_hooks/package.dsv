@@ -1,0 +1,4 @@
+source;share/cpp01_urdf/local_setup.bash
+source;share/cpp01_urdf/local_setup.dsv
+source;share/cpp01_urdf/local_setup.sh
+source;share/cpp01_urdf/local_setup.zsh

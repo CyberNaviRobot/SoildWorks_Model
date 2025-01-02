@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tungchiahui/source/simulate_ros2/build/cpp01_urdf
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/launch
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/launch/display.launch.py
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf/mini_mec_six_arm.urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/urdf/urdf/mini_mec_six_arm.csv
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/rviz
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/rviz/.gitkeep
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link10.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/base_link.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link6.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link2.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link1.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/right_front_wheel_link.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link5.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link11.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link4.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link9.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/left_front_wheel_link.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/right_rear_wheel_link.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link3.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/left_rear_wheel_link.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link7.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/meshes/link8.STL
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/package_run_dependencies/cpp01_urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/parent_prefix_path/cpp01_urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/ament_prefix_path.dsv
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/path.sh
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/environment/path.dsv
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.bash
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.sh
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.zsh
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/local_setup.dsv
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/package.dsv
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/ament_index/resource_index/packages/cpp01_urdf
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/cmake/cpp01_urdfConfig.cmake
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/cmake/cpp01_urdfConfig-version.cmake
+-- Installing: /home/tungchiahui/source/simulate_ros2/install/cpp01_urdf/share/cpp01_urdf/package.xml
